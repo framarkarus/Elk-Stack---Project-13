@@ -29,9 +29,9 @@ Machines within the network can only be accessed by whitelisted users. The curre
 
 Ansible ([ansible config file](https://github.com/framarkarus/Elk-Stack---Project-13/wiki/Ansible)) was used to automate the configuration of the ELK machine, which allowed for quick and accurate deployment. 
 The Ansible playbook used the following for completion
-* Installs docker.io
-* Installs python-pip
-* Installs the docker module using pip
+* docker.io
+* python-pip
+* docker module using pip
 * Increases the virtual memory of our ELK box
 Downloads and launches the sebp/elk container over ports 5601, 9200, and 5044.
 The following commands must be used to access the containers
